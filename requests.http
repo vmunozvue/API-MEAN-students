@@ -3,9 +3,9 @@ POST http://localhost:9000/api/users HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Pedro",
+    "name": "Frank",
     "age": "45",
-    "email": "antonio@gmail.com"
+    "email": "Frank@gmail.com"
 }
 
 ###
@@ -16,7 +16,7 @@ GET http://localhost:9000/api/users HTTP/1.1
 GET http://localhost:9000/api/users/email/antonio@gmail.com HTTP/1.1
 
 ###
-DELETE http://localhost:9000/api/users/email/antonio@gmail.com HTTP/1.1
+DELETE http://localhost:9000/api/users/email/Frank@gmail.com HTTP/1.1
 
 ###
 GET http://localhost:9000/api/users/6137e2bb2e329eb206b0073e HTTP/1.1
